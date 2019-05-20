@@ -1,0 +1,26 @@
+uuid: 68b65085-45c5-4efd-b9e0-1b48d3435a54
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.comment
+    - field.storage.comment.comment_body
+  enforced:
+    module:
+      - recipes_magazin
+  module:
+    - text
+_core:
+  default_config_hash: komxKY49vDLOFuWNMmncHs4Bqk2ZgbR9mkAKmHoQ6kY
+id: comment.comment.comment_body
+field_name: comment_body
+entity_type: comment
+bundle: comment
+label: Comment
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
